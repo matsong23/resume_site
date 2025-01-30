@@ -1,5 +1,5 @@
 body {
-    background-color: #284b63;
+    background-color: #3C6E71;
     line-hieght: 2;
     font-family: Arial, sans-serif;
 }
@@ -8,6 +8,11 @@ header {
     background-color: #353535;
     color: #ffffff;
     text-align: center;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding: 20px;
 }
 
 college-info {
