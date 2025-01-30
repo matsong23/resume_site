@@ -1,5 +1,5 @@
 body {
-    background-color: #d9d9d9;
+    background-color: #284b63;
     line-hieght: 2;
     font-family: Arial, sans-serif;
 }
@@ -7,5 +7,7 @@ body {
 header {
     background-color: #353535;
     color: #ffffff;
-    text-aline: center;
+    text-align: center;
 }
+
+
