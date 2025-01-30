@@ -2,7 +2,7 @@ body {
     background-color: #3C6E71;
     line-hieght: 2;
     font-family: Arial, sans-serif;
-    padding-top: 180px;
+    padding-top: 200px;
 }
 
 header {
@@ -17,7 +17,7 @@ header {
 }
 
 college-info {
-    test-align: center;
+    text-align: center;
 }
 
 column {
