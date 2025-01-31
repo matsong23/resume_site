@@ -28,17 +28,18 @@ header {
 
 .courses {
     padding: 20px;
-    width: 50%;
+    width: 60%;
     line-style-position: outside;
-    margin-left: 12%;
+    margin-left: 5%;
     background-color: #284b63;
 }
 
 .lang-tool {
     padding: 20px;
-    width: 15%;
+    width: 20%;
+    height: 30%
     line-style-position: outside;
-    margin-right: 13%;
+    margin-right: 5%;
     background-color: #284b63;
 }
 
