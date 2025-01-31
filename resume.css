@@ -24,20 +24,32 @@ header {
 .course-lang {
     display: flex;
     width: 150%;
+    gap: 20px;
 }
 
 .courses {
     padding: 20px;
     width: 50%;
     line-style-position: outside;
+    margin-right: 5%;
+    background-color: #284b63;
 }
 
 .lang-tool {
     padding: 20px;
     width: 50%;
     line-style-position: outside;
+    margin-left: 5%;
+    background-color: #284b63;
 }
 
 .buttons {
+    text-align: center;
+    background-color: #353535;
+}
+
+h3 {
+    background-color: #353535;
+    padding: 15px;
     text-align: center;
 }
