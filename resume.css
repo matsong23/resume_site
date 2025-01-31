@@ -29,7 +29,7 @@ header {
 
 .courses {
     padding: 20px;
-    width: 50%;
+    width: 70%;
     line-style-position: outside;
     margin-right: 5%;
     background-color: #284b63;
@@ -37,7 +37,7 @@ header {
 
 .lang-tool {
     padding: 20px;
-    width: 50%;
+    width: 20%;
     line-style-position: outside;
     margin-left: 5%;
     background-color: #284b63;
