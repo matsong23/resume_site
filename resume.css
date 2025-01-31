@@ -18,12 +18,12 @@ header {
 }
 
 .college-info {
-    
+    text-align: center;
 }
 
 .course-lang {
     display: flex;
-    width: 120%;
+    width: 150%;
 }
 
 .courses {
