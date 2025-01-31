@@ -22,15 +22,20 @@ header {
 }
 
 .course-lang {
-    
+    display: flex;
+    width: 120%;
 }
 
 .courses {
-
+    padding: 20px;
+    width: 50%;
+    line-style-position: outside;
 }
 
 .lang-tool {
-
+    padding: 20px;
+    width: 50%;
+    line-style-position: outside;
 }
 
 .buttons {
