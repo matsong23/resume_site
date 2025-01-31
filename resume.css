@@ -4,7 +4,6 @@ body {
     line-hieght: 2;
     font-family: Arial, sans-serif;
     padding-top: 150px;
-    position: fixed;
 }
 
 header {
@@ -15,6 +14,7 @@ header {
     top: 0;
     left: 0;
     padding: 20px;
+    position: fixed;
 }
 
 .college-info {
