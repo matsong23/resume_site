@@ -24,14 +24,15 @@ header {
 .course-lang {
     display: flex;
     width: 150%;
-    gap: 20px;
+    gap: 20%;
 }
 
 .courses {
     padding: 20px;
-    width: 70%;
+    width: 50%;
     line-style-position: outside;
-    margin-right: 5%;
+    margin-left: 5%;
+    margin-right: 10%;
     background-color: #284b63;
 }
 
@@ -39,6 +40,7 @@ header {
     padding: 20px;
     width: 20%;
     line-style-position: outside;
+    margin-right: 10%;
     margin-left: 5%;
     background-color: #284b63;
 }
