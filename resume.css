@@ -30,7 +30,7 @@ header {
     padding: 20px;
     width: 50%;
     line-style-position: outside;
-    margin-left: 12.5%;
+    margin-left: 12%;
     background-color: #284b63;
 }
 
@@ -38,7 +38,7 @@ header {
     padding: 20px;
     width: 15%;
     line-style-position: outside;
-    margin-right: 12.5%;
+    margin-right: 13%;
     background-color: #284b63;
 }
 
@@ -52,4 +52,5 @@ h2 {
     background-color: #353535;
     padding: 15px;
     text-align: center;
+    display: inline-block;
 }
