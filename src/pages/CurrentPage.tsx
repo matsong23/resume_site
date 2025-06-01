@@ -1,7 +1,7 @@
 import React from "react";
 import Top from "../top";
 
-export default function current() {
+export default function Current() {
   return (
     <>
       <Top
