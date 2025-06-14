@@ -1,0 +1,126 @@
+import React from "react";
+import Top from "../../../src/top";
+
+export default function Projects() {
+  return (
+    <>
+      <Top
+        title="Projects"
+        buttons={[
+          { name: "Home ", filepath: "./" },
+          { name: "Resume", filepath: "./resume" },
+          { name: "CuRrent ", filepath: "./current" },
+        ]}
+      />
+      <h2>Online Store</h2>
+      <h3>Project Describtion</h3>
+      <p>
+        Final project for Intro to Database. Took four weeks to complete. Create
+        an online store for both customer and employee use. Customer could look
+        up products, manage their cart, check out, and view orders. New users
+        can either view as guest or create a profile. Employees can change
+        product quantity, price, and view product history showing price and
+        quatity changes over time.
+      </p>
+      <h3>Steps of Project</h3>
+      <ul>
+        <li>Design a UML diagram of the internal database in Dia.</li>
+        <li>
+          Create tables, procedures, functions, and insert data using MYSQL
+        </li>
+        <li>
+          Create a very basic website using HTML and PHP to comunicate with
+          database and display information
+        </li>
+      </ul>
+      <h3>UML diagram</h3>
+      <img src="/img/Project.png" />
+
+      <h2>Graphs</h2>
+      <p>
+        Two part final assignment for Data Structures using Java. Took 2 weeks
+        to complete. Create a graph data structure to support adding, removing,
+        and listing edges and vertices for a directed or undirected graph. Using
+        the graph data structure, implement breath first search, depth first
+        search, and Dijkstra's algorithm for finding shortest path.
+      </p>
+
+      <h2>ASCII Dungeon Crawler</h2>
+      <p>
+        One week programming assignment in C for Programming at the Hardware
+        Software Interface. Create dungeon crawler game by reading in levels
+        from files. player must be able to pick up items, use items, and move
+        around map.
+      </p>
+      <div className="info">
+        <div className="table">
+          <table>
+            <thead>
+              <tr>
+                <th>Tile Name</th>
+                <th>Display</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Player</td>
+                <td>@</td>
+              </tr>
+              <tr>
+                <td>empty</td>
+                <td>(1 space)</td>
+              </tr>
+              <tr>
+                <td>Wall</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <td>Secret passage</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <td>Gem</td>
+                <td>*</td>
+              </tr>
+              <tr>
+                <td>Key</td>
+                <td>+</td>
+              </tr>
+              <tr>
+                <td>Open door</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td>Locked door</td>
+                <td>=</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div className="img">
+          <img src="/img/dungeon1.png" width="240" height="265" />
+          <img src="/img/dungeon2.png" width="240" height="265" />
+        </div>
+      </div>
+
+      <h2>Unigram language model</h2>
+      <p>
+        One week programming assignment in C for Programming at the Hardware
+        Software Interface. Read in a file containing sentences saving each word
+        in a hashtable. Final calculate probability of each word in the file.
+      </p>
+
+      <h2>10,000 Dice Game</h2>
+      <p>
+        Created the 10,000 dice game where two players take turns rolling dice
+        to get to 10,000 points. Programed in Java on my own free time.
+      </p>
+      <img src="/img/10,000.png" width="654" height="647" />
+      <h2>This Website(in progress)</h2>
+      <p>
+        Create a website for easy access to important information about what I
+        have learned and made. Made using HTML and CSS from scratch.
+      </p>
+    </>
+  );
+}
