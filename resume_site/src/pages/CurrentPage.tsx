@@ -1,0 +1,62 @@
+import React from "react";
+import Top from "../../../src/top";
+
+export default function Current() {
+  return (
+    <>
+      <Top
+        title="Current Activities"
+        buttons={[
+          { name: "home", filepath: "./" },
+          { name: "resume", filepath: "./resume" },
+          { name: "projects", filepath: "./projects" },
+        ]}
+      />
+      <div className="main">
+        <div className="courses">
+          <h2>Current Major Related Classes</h2>
+          <dl>
+            <dt>Team Software Project</dt>
+            <dd>
+              Learned about different software development processes Waterfall
+              model, Incremetal Development, and Integration and configuration
+            </dd>
+            <dd>
+              Learned about the aspects of the core software process like
+              requirment specification and development
+            </dd>
+            <dd>Designed UML Case Diagrams</dd>
+            <dd>Will form a team of six form a future project</dd>
+
+            <dt>Computer Organization</dt>
+            <dd>Convert MIPS instructions to Binary and then to Hexadecimal</dd>
+            <dd>
+              Calculate infromation on computer proccessors using IPS, number of
+              instructions, CPI, clock rate, and FLOPS
+            </dd>
+            <dd>Calculate computer proccessor speedup</dd>
+
+            <dt>Formal Models of Computation</dt>
+            <dd>
+              Apply set operations like concatenation, Kleene star, and Kleene
+              plus
+            </dd>
+            <dd>
+              Make Recursive definitions and use induction to prove recursive
+              definitions
+            </dd>
+          </dl>
+        </div>
+        <div className="projects">
+          <h2>Current Projects</h2>
+          <h3>Resume Website</h3>
+          <p>
+            Design a website that is more detailed than a paper resume that is
+            easy to access and use for employers. Made from scratch using HTML
+            and will add much more CSS elements with excess time.
+          </p>
+        </div>
+      </div>
+    </>
+  );
+}
